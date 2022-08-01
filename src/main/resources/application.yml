@@ -1,0 +1,18 @@
+jasypt:
+  encryptor:
+    algorithm: PBEWithMD5AndDES
+    password: ${JASYPT_ENCRYPTOR_PASSWORD:}
+
+clash:
+  api:
+    members: https://api.clashroyale.com/v1/clans/%23Q2UYQG/members
+    river_race: https://api.clashroyale.com/v1/clans/%23Q2UYQG/currentriverrace
+
+#local api key
+api:
+  key: clashRoyaleKeyGoesHere
+
+#local api key
+discord:
+  webhook:
+    api: LastChanceDiscordKey
